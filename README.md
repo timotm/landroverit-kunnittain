@@ -1,3 +1,5 @@
+See [https://timotm.github.io/landroverit-kunnittain/](https://timotm.github.io/landroverit-kunnittain/g)
+
 ```SQL
 with get_counts as 
 (select kunta_nimi, kunta_asukasluku, count(1) as auto_lkm, count(1) filter (where merkkiselvakielinen ilike '%land%rover%' or merkkiselvakielinen ilike '%range%rover') as lr_lkm from ajoneuvo a natural join kunta2 group by kunta_nimi, kunta_asukasluku) 
