@@ -1,0 +1,223 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js"
+      integrity="sha256-65UqrlgGoRAnKfKRuriH3eeDrOhZgZo1SCenduc+SGo="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      html,
+      body,
+      #map {
+        height: 100%;
+        width: 100%;
+      }
+
+      .multi-button {
+        padding: 5px;
+        border-radius: 12px;
+      }
+
+      .button {
+        height: 40px;
+        width: 60px;
+        border: none;
+        vertical-align: top;
+        box-sizing: content-box;
+      }
+
+      .button:hover {
+        background-color: white;
+      }
+
+      .button:first-child {
+        border-radius: 8px 0 0 8px;
+      }
+
+      .button:last-child {
+        border-radius: 0 8px 8px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script type="text/javascript" src="kunnat.js"></script>
+    <script type="text/javascript" src="lrdata.js"></script>
+    <script type="text/javascript">
+      const map = L.map("map").setView([64.96, 27.59], 6);
+
+      const tiles = L.tileLayer(
+        "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        {
+          maxZoom: 19,
+          attribution:
+            '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a><br>Sisältää Maanmittauslaitoksen hallinnollisten aluejakojen 01/2023 ainestoa',
+        }
+      ).addTo(map);
+
+      const setVariable = ({ variable, text, limits }) => {
+        if (this._oldLayer) {
+          map.removeLayer(this._oldLayer);
+        }
+
+        const getColor = (kunta) => {
+          if (kunta in lrData) {
+            const amount = lrData[kunta][variable];
+            return amount > limits[7]
+              ? "#990000"
+              : amount > limits[6]
+              ? "#d7301f"
+              : amount > limits[5]
+              ? "#ef6548"
+              : amount > limits[4]
+              ? "#fc8d59"
+              : amount > limits[3]
+              ? "#fdbb84"
+              : amount > limits[2]
+              ? "#fdd49e"
+              : amount > limits[1]
+              ? "#fee8c8"
+              : amount > limits[0]
+              ? "#fff7ec"
+              : "#ffffff";
+          } else {
+            return "#ffffff";
+          }
+        };
+
+        const style = (feature) => ({
+          weight: 2,
+          opacity: 1,
+          color: "white",
+          dashArray: "3",
+          fillOpacity: 0.5,
+          fillColor: getColor(feature.properties.namefin, variable),
+        });
+
+        const onEachFeature = (feature, layer) => {
+          if (
+            feature.properties &&
+            feature.properties.namefin &&
+            feature.properties.namefin in lrData
+          ) {
+            const toolTipText = `<b>${feature.properties.namefin}</b><br/>${
+              lrData[feature.properties.namefin][variable]
+            } ${text}`;
+            layer.bindTooltip(toolTipText);
+            layer.bindPopup(toolTipText);
+          }
+        };
+
+        this._oldLayer = L.geoJSON(kunnat, { style, onEachFeature }).addTo(map);
+      };
+
+      const buttons = [
+        {
+          label: "LR / asukas",
+          variable: "lr_promille_asukas",
+          text: "rekisteröidystä autosta / 1000 asukasta on Land Rovereita",
+          limits: [0.14, 0.62, 0.895, 1.16, 1.47, 1.87, 2.625, 3.17],
+        },
+        {
+          label: "LR / autot",
+          variable: "lr_promille_autot",
+          text: "rekisteröidystä autosta / 1000 autoa on Land Rovereita",
+          limits: [0.11, 0.445, 0.68, 0.88, 1.15, 1.44, 1.955, 2.44],
+        },
+        {
+          label: "Disco",
+          variable: "discovery_lkm",
+          text: "rekisteröityä Discoveryä",
+          limits: [3, 4, 5, 6, 13.5, 22.5, 39.5],
+        },
+        {
+          label: "FL",
+          variable: "freelander_lkm",
+          text: "rekisteröityä Freelanderia",
+          limits: [3, 4, 5, 6, 10, 14.5, 24],
+        },
+        {
+          label: "RRS",
+          variable: "rrs_lkm",
+          text: "rekisteröityä Range Rover Sportia",
+          limits: [1, 2, 3, 4, 9.5, 16, 26.5],
+        },
+        {
+          label: "RR",
+          variable: "rr_lkm",
+          text: "rekisteröityä Range Roveria",
+          limits: [2, 3, 4, 7, 8, 11, 15],
+        },
+        {
+          label: "Evoque",
+          variable: "evoque_lkm",
+          text: "rekisteröityä Evoquea",
+          limits: [2, 3, 5, 8, 8, 12.5, 28],
+        },
+        {
+          label: "Defender",
+          variable: "defender_lkm",
+          text: "rekisteröityä Defenderiä",
+          limits: [1, 2, 2.5, 4, 5, 9, 26],
+        },
+        {
+          label: "Velar",
+          variable: "velar_lkm",
+          text: "rekisteröityä Velaria",
+          limits: [1, 2, 3, 4, 5, 6, 7],
+        },
+        {
+          label: "Defender 20",
+          variable: "defender_2020_lkm",
+          text: "rekisteröityä Defenderiä 2020->",
+          limits: [1, 2, 3, 5, 7, 8, 9],
+        },
+      ];
+      L.Control.ButtonGroup = L.Control.extend({
+        onAdd: function (map) {
+          this._container = L.DomUtil.create("div", "button-container");
+          buttons.forEach(({ label, variable, text, limits }) => {
+            const button = L.DomUtil.create(
+              "button",
+              "button",
+              this._container
+            );
+            button.innerHTML = label;
+            L.DomEvent.on(button, "click", () => {
+              setVariable({ variable, text, limits });
+            });
+          });
+          return this._container;
+        },
+
+        onRemove: function (map) {
+          L.DomEvent.off(this._button, "click");
+        },
+      });
+
+      L.control.buttonGroup = function (opts) {
+        return new L.Control.ButtonGroup(opts);
+      };
+
+      L.control.buttonGroup({ position: "topright" }).addTo(map);
+      setVariable(buttons[0]);
+    </script>
+  </body>
+</html>

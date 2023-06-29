@@ -317,3 +317,19 @@ order by
 	lr_promille_autot desc;
 ```
 
+Kuntakartta on ladattu [maanmittauslaitoksen latauspalvelusta](https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/hallinnolliset_aluejaot_vektori), muunnettu GeoJSONiksi `gdal`illa: 
+```shell
+ogr2ogr  -f geojson kunnat.geojson ./SuomenHallinnollisetKuntajakopohjaisetAluejaot_2023_10k.gpkg Kunta
+```
+
+Vaihdettu projektio ja pienennetty tiedostoa mapshaper-gui:lla
+
+```
+console:
+ -proj from=EPSG:3067 wgs84
+```
+simplify -> 1%
+
+```
+jq 'INDEX(.kunta_nimi) | del(.[].kunta_nimi,.[].kunta_asukasluku,.[].auto_lkm,.[].autoja_per_asukas)' data.json
+```
