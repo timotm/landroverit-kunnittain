@@ -1,5 +1,5 @@
 const lrData = {
-  Sund: {
+  "Sund": {
     lr_lkm: 1,
     autoja_per_asukas: 0.03,
     lr_promille_autot: 37.04,
@@ -14,7 +14,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kauniainen: {
+  "Kauniainen": {
     lr_lkm: 60,
     autoja_per_asukas: 0.67,
     lr_promille_autot: 8.69,
@@ -29,7 +29,7 @@ const lrData = {
     defender_2020_lkm: 3,
     fe_lkm: 0,
   },
-  Säkylä: {
+  "Säkylä": {
     lr_lkm: 67,
     autoja_per_asukas: 1.75,
     lr_promille_autot: 5.97,
@@ -44,7 +44,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Siuntio: {
+  "Siuntio": {
     lr_lkm: 38,
     autoja_per_asukas: 1.21,
     lr_promille_autot: 5.07,
@@ -59,7 +59,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Hattula: {
+  "Hattula": {
     lr_lkm: 58,
     autoja_per_asukas: 1.29,
     lr_promille_autot: 4.79,
@@ -74,7 +74,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Helsinki: {
+  "Helsinki": {
     lr_lkm: 1379,
     autoja_per_asukas: 0.48,
     lr_promille_autot: 4.33,
@@ -89,7 +89,7 @@ const lrData = {
     defender_2020_lkm: 85,
     fe_lkm: 1,
   },
-  Inkoo: {
+  "Inkoo": {
     lr_lkm: 32,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 4.24,
@@ -104,7 +104,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Hailuoto: {
+  "Hailuoto": {
     lr_lkm: 6,
     autoja_per_asukas: 1.71,
     lr_promille_autot: 3.66,
@@ -119,7 +119,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Marttila: {
+  "Marttila": {
     lr_lkm: 12,
     autoja_per_asukas: 1.66,
     lr_promille_autot: 3.65,
@@ -134,7 +134,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Espoo: {
+  "Espoo": {
     lr_lkm: 569,
     autoja_per_asukas: 0.58,
     lr_promille_autot: 3.21,
@@ -149,7 +149,7 @@ const lrData = {
     defender_2020_lkm: 26,
     fe_lkm: 0,
   },
-  Kirkkonummi: {
+  "Kirkkonummi": {
     lr_lkm: 108,
     autoja_per_asukas: 0.84,
     lr_promille_autot: 3.14,
@@ -164,7 +164,7 @@ const lrData = {
     defender_2020_lkm: 4,
     fe_lkm: 2,
   },
-  Hanko: {
+  "Hanko": {
     lr_lkm: 25,
     autoja_per_asukas: 1.09,
     lr_promille_autot: 2.93,
@@ -179,7 +179,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Kustavi: {
+  "Kustavi": {
     lr_lkm: 5,
     autoja_per_asukas: 1.81,
     lr_promille_autot: 2.92,
@@ -194,7 +194,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Rääkkylä: {
+  "Rääkkylä": {
     lr_lkm: 9,
     autoja_per_asukas: 1.62,
     lr_promille_autot: 2.83,
@@ -209,7 +209,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Vaala: {
+  "Vaala": {
     lr_lkm: 10,
     autoja_per_asukas: 1.53,
     lr_promille_autot: 2.49,
@@ -224,7 +224,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Kemiönsaari: {
+  "Kemiönsaari": {
     lr_lkm: 24,
     autoja_per_asukas: 1.49,
     lr_promille_autot: 2.46,
@@ -239,7 +239,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Sipoo: {
+  "Sipoo": {
     lr_lkm: 80,
     autoja_per_asukas: 1.48,
     lr_promille_autot: 2.42,
@@ -254,7 +254,7 @@ const lrData = {
     defender_2020_lkm: 3,
     fe_lkm: 1,
   },
-  Porvoo: {
+  "Porvoo": {
     lr_lkm: 134,
     autoja_per_asukas: 1.12,
     lr_promille_autot: 2.34,
@@ -269,7 +269,7 @@ const lrData = {
     defender_2020_lkm: 18,
     fe_lkm: 1,
   },
-  Lumijoki: {
+  "Lumijoki": {
     lr_lkm: 6,
     autoja_per_asukas: 1.33,
     lr_promille_autot: 2.27,
@@ -284,7 +284,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Lohja: {
+  "Lohja": {
     lr_lkm: 112,
     autoja_per_asukas: 1.09,
     lr_promille_autot: 2.25,
@@ -299,7 +299,7 @@ const lrData = {
     defender_2020_lkm: 3,
     fe_lkm: 0,
   },
-  Myrskylä: {
+  "Myrskylä": {
     lr_lkm: 6,
     autoja_per_asukas: 1.54,
     lr_promille_autot: 2.21,
@@ -314,7 +314,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Sysmä: {
+  "Sysmä": {
     lr_lkm: 11,
     autoja_per_asukas: 1.47,
     lr_promille_autot: 2.14,
@@ -329,7 +329,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Naantali: {
+  "Naantali": {
     lr_lkm: 44,
     autoja_per_asukas: 1.04,
     lr_promille_autot: 2.14,
@@ -344,7 +344,7 @@ const lrData = {
     defender_2020_lkm: 7,
     fe_lkm: 0,
   },
-  Pirkkala: {
+  "Pirkkala": {
     lr_lkm: 41,
     autoja_per_asukas: 0.95,
     lr_promille_autot: 2.12,
@@ -359,7 +359,7 @@ const lrData = {
     defender_2020_lkm: 5,
     fe_lkm: 0,
   },
-  Vantaa: {
+  "Vantaa": {
     lr_lkm: 371,
     autoja_per_asukas: 0.73,
     lr_promille_autot: 2.09,
@@ -374,7 +374,7 @@ const lrData = {
     defender_2020_lkm: 15,
     fe_lkm: 0,
   },
-  Luumäki: {
+  "Luumäki": {
     lr_lkm: 14,
     autoja_per_asukas: 1.53,
     lr_promille_autot: 2.07,
@@ -389,7 +389,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Asikkala: {
+  "Asikkala": {
     lr_lkm: 22,
     autoja_per_asukas: 1.36,
     lr_promille_autot: 2.02,
@@ -404,7 +404,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Turku: {
+  "Turku": {
     lr_lkm: 242,
     autoja_per_asukas: 0.61,
     lr_promille_autot: 1.99,
@@ -419,7 +419,7 @@ const lrData = {
     defender_2020_lkm: 20,
     fe_lkm: 1,
   },
-  Raasepori: {
+  "Raasepori": {
     lr_lkm: 64,
     autoja_per_asukas: 1.19,
     lr_promille_autot: 1.98,
@@ -434,7 +434,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Tampere: {
+  "Tampere": {
     lr_lkm: 291,
     autoja_per_asukas: 0.59,
     lr_promille_autot: 1.97,
@@ -449,7 +449,7 @@ const lrData = {
     defender_2020_lkm: 13,
     fe_lkm: 0,
   },
-  Pyhäntä: {
+  "Pyhäntä": {
     lr_lkm: 4,
     autoja_per_asukas: 1.25,
     lr_promille_autot: 1.96,
@@ -464,7 +464,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Vesilahti: {
+  "Vesilahti": {
     lr_lkm: 12,
     autoja_per_asukas: 1.37,
     lr_promille_autot: 1.95,
@@ -479,7 +479,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ylöjärvi: {
+  "Ylöjärvi": {
     lr_lkm: 72,
     autoja_per_asukas: 1.1,
     lr_promille_autot: 1.94,
@@ -494,7 +494,7 @@ const lrData = {
     defender_2020_lkm: 5,
     fe_lkm: 0,
   },
-  Vihti: {
+  "Vihti": {
     lr_lkm: 60,
     autoja_per_asukas: 1.07,
     lr_promille_autot: 1.93,
@@ -509,7 +509,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Kärkölä: {
+  "Kärkölä": {
     lr_lkm: 11,
     autoja_per_asukas: 1.36,
     lr_promille_autot: 1.93,
@@ -524,7 +524,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Pälkäne: {
+  "Pälkäne": {
     lr_lkm: 17,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 1.92,
@@ -539,7 +539,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Pelkosenniemi: {
+  "Pelkosenniemi": {
     lr_lkm: 3,
     autoja_per_asukas: 1.69,
     lr_promille_autot: 1.88,
@@ -554,7 +554,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Salo: {
+  "Salo": {
     lr_lkm: 114,
     autoja_per_asukas: 1.19,
     lr_promille_autot: 1.88,
@@ -569,7 +569,7 @@ const lrData = {
     defender_2020_lkm: 5,
     fe_lkm: 0,
   },
-  Lempäälä: {
+  "Lempäälä": {
     lr_lkm: 46,
     autoja_per_asukas: 1,
     lr_promille_autot: 1.86,
@@ -584,7 +584,7 @@ const lrData = {
     defender_2020_lkm: 6,
     fe_lkm: 0,
   },
-  Uusikaupunki: {
+  "Uusikaupunki": {
     lr_lkm: 34,
     autoja_per_asukas: 1.23,
     lr_promille_autot: 1.84,
@@ -599,7 +599,7 @@ const lrData = {
     defender_2020_lkm: 3,
     fe_lkm: 0,
   },
-  Kuhmoinen: {
+  "Kuhmoinen": {
     lr_lkm: 6,
     autoja_per_asukas: 1.55,
     lr_promille_autot: 1.83,
@@ -614,7 +614,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 1,
   },
-  Ruovesi: {
+  "Ruovesi": {
     lr_lkm: 11,
     autoja_per_asukas: 1.5,
     lr_promille_autot: 1.78,
@@ -629,7 +629,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Padasjoki: {
+  "Padasjoki": {
     lr_lkm: 7,
     autoja_per_asukas: 1.44,
     lr_promille_autot: 1.76,
@@ -644,7 +644,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Sodankylä: {
+  "Sodankylä": {
     lr_lkm: 24,
     autoja_per_asukas: 1.7,
     lr_promille_autot: 1.74,
@@ -659,7 +659,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Oripää: {
+  "Oripää": {
     lr_lkm: 4,
     autoja_per_asukas: 1.77,
     lr_promille_autot: 1.72,
@@ -674,7 +674,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Lappeenranta: {
+  "Lappeenranta": {
     lr_lkm: 116,
     autoja_per_asukas: 0.93,
     lr_promille_autot: 1.71,
@@ -689,7 +689,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 2,
   },
-  Lahti: {
+  "Lahti": {
     lr_lkm: 157,
     autoja_per_asukas: 0.77,
     lr_promille_autot: 1.7,
@@ -704,7 +704,7 @@ const lrData = {
     defender_2020_lkm: 5,
     fe_lkm: 1,
   },
-  Pyhäjoki: {
+  "Pyhäjoki": {
     lr_lkm: 7,
     autoja_per_asukas: 1.41,
     lr_promille_autot: 1.67,
@@ -719,7 +719,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kittilä: {
+  "Kittilä": {
     lr_lkm: 17,
     autoja_per_asukas: 1.53,
     lr_promille_autot: 1.67,
@@ -734,7 +734,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Urjala: {
+  "Urjala": {
     lr_lkm: 12,
     autoja_per_asukas: 1.58,
     lr_promille_autot: 1.66,
@@ -749,7 +749,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Hausjärvi: {
+  "Hausjärvi": {
     lr_lkm: 17,
     autoja_per_asukas: 1.28,
     lr_promille_autot: 1.66,
@@ -764,7 +764,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kangasala: {
+  "Kangasala": {
     lr_lkm: 55,
     autoja_per_asukas: 1.01,
     lr_promille_autot: 1.65,
@@ -779,7 +779,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Enontekiö: {
+  "Enontekiö": {
     lr_lkm: 6,
     autoja_per_asukas: 2.01,
     lr_promille_autot: 1.65,
@@ -794,7 +794,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Nurmijärvi: {
+  "Nurmijärvi": {
     lr_lkm: 77,
     autoja_per_asukas: 1.05,
     lr_promille_autot: 1.64,
@@ -809,7 +809,7 @@ const lrData = {
     defender_2020_lkm: 7,
     fe_lkm: 1,
   },
-  Ypäjä: {
+  "Ypäjä": {
     lr_lkm: 6,
     autoja_per_asukas: 1.64,
     lr_promille_autot: 1.64,
@@ -824,7 +824,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Hollola: {
+  "Hollola": {
     lr_lkm: 41,
     autoja_per_asukas: 1.09,
     lr_promille_autot: 1.64,
@@ -839,7 +839,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Maalahti: {
+  "Maalahti": {
     lr_lkm: 14,
     autoja_per_asukas: 1.56,
     lr_promille_autot: 1.64,
@@ -854,7 +854,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kaarina: {
+  "Kaarina": {
     lr_lkm: 54,
     autoja_per_asukas: 0.92,
     lr_promille_autot: 1.63,
@@ -869,7 +869,7 @@ const lrData = {
     defender_2020_lkm: 6,
     fe_lkm: 0,
   },
-  Kajaani: {
+  "Kajaani": {
     lr_lkm: 61,
     autoja_per_asukas: 1.03,
     lr_promille_autot: 1.63,
@@ -884,7 +884,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Mäntsälä: {
+  "Mäntsälä": {
     lr_lkm: 39,
     autoja_per_asukas: 1.15,
     lr_promille_autot: 1.62,
@@ -899,7 +899,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Virrat: {
+  "Virrat": {
     lr_lkm: 15,
     autoja_per_asukas: 1.46,
     lr_promille_autot: 1.6,
@@ -914,7 +914,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Tuusula: {
+  "Tuusula": {
     lr_lkm: 68,
     autoja_per_asukas: 1.07,
     lr_promille_autot: 1.57,
@@ -929,7 +929,7 @@ const lrData = {
     defender_2020_lkm: 5,
     fe_lkm: 0,
   },
-  Sauvo: {
+  "Sauvo": {
     lr_lkm: 7,
     autoja_per_asukas: 1.54,
     lr_promille_autot: 1.56,
@@ -944,7 +944,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Iitti: {
+  "Iitti": {
     lr_lkm: 14,
     autoja_per_asukas: 1.38,
     lr_promille_autot: 1.56,
@@ -959,7 +959,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Luhanka: {
+  "Luhanka": {
     lr_lkm: 2,
     autoja_per_asukas: 1.86,
     lr_promille_autot: 1.56,
@@ -974,7 +974,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Lieto: {
+  "Lieto": {
     lr_lkm: 36,
     autoja_per_asukas: 1.12,
     lr_promille_autot: 1.56,
@@ -989,7 +989,7 @@ const lrData = {
     defender_2020_lkm: 3,
     fe_lkm: 1,
   },
-  Hyvinkää: {
+  "Hyvinkää": {
     lr_lkm: 62,
     autoja_per_asukas: 0.87,
     lr_promille_autot: 1.53,
@@ -1004,7 +1004,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Tervola: {
+  "Tervola": {
     lr_lkm: 7,
     autoja_per_asukas: 1.59,
     lr_promille_autot: 1.53,
@@ -1019,7 +1019,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Järvenpää: {
+  "Järvenpää": {
     lr_lkm: 51,
     autoja_per_asukas: 0.73,
     lr_promille_autot: 1.53,
@@ -1034,7 +1034,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Sastamala: {
+  "Sastamala": {
     lr_lkm: 53,
     autoja_per_asukas: 1.46,
     lr_promille_autot: 1.53,
@@ -1049,7 +1049,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Muonio: {
+  "Muonio": {
     lr_lkm: 6,
     autoja_per_asukas: 1.75,
     lr_promille_autot: 1.51,
@@ -1064,7 +1064,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Utsjoki: {
+  "Utsjoki": {
     lr_lkm: 3,
     autoja_per_asukas: 1.69,
     lr_promille_autot: 1.51,
@@ -1079,7 +1079,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Sotkamo: {
+  "Sotkamo": {
     lr_lkm: 21,
     autoja_per_asukas: 1.36,
     lr_promille_autot: 1.5,
@@ -1094,7 +1094,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Loviisa: {
+  "Loviisa": {
     lr_lkm: 27,
     autoja_per_asukas: 1.25,
     lr_promille_autot: 1.48,
@@ -1109,7 +1109,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 1,
   },
-  Lapua: {
+  "Lapua": {
     lr_lkm: 27,
     autoja_per_asukas: 1.31,
     lr_promille_autot: 1.47,
@@ -1124,7 +1124,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ristijärvi: {
+  "Ristijärvi": {
     lr_lkm: 3,
     autoja_per_asukas: 1.77,
     lr_promille_autot: 1.44,
@@ -1139,7 +1139,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Juupajoki: {
+  "Juupajoki": {
     lr_lkm: 4,
     autoja_per_asukas: 1.57,
     lr_promille_autot: 1.44,
@@ -1154,7 +1154,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Petäjävesi: {
+  "Petäjävesi": {
     lr_lkm: 7,
     autoja_per_asukas: 1.33,
     lr_promille_autot: 1.44,
@@ -1169,7 +1169,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Parainen: {
+  "Parainen": {
     lr_lkm: 27,
     autoja_per_asukas: 1.26,
     lr_promille_autot: 1.43,
@@ -1184,7 +1184,7 @@ const lrData = {
     defender_2020_lkm: 3,
     fe_lkm: 0,
   },
-  Lemi: {
+  "Lemi": {
     lr_lkm: 6,
     autoja_per_asukas: 1.47,
     lr_promille_autot: 1.41,
@@ -1199,7 +1199,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Nurmes: {
+  "Nurmes": {
     lr_lkm: 18,
     autoja_per_asukas: 1.39,
     lr_promille_autot: 1.4,
@@ -1214,7 +1214,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Hämeenlinna: {
+  "Hämeenlinna": {
     lr_lkm: 89,
     autoja_per_asukas: 0.93,
     lr_promille_autot: 1.4,
@@ -1229,7 +1229,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 1,
   },
-  Masku: {
+  "Masku": {
     lr_lkm: 18,
     autoja_per_asukas: 1.33,
     lr_promille_autot: 1.4,
@@ -1244,7 +1244,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Mäntyharju: {
+  "Mäntyharju": {
     lr_lkm: 11,
     autoja_per_asukas: 1.44,
     lr_promille_autot: 1.37,
@@ -1259,7 +1259,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 1,
   },
-  Kalajoki: {
+  "Kalajoki": {
     lr_lkm: 22,
     autoja_per_asukas: 1.31,
     lr_promille_autot: 1.36,
@@ -1274,7 +1274,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Sulkava: {
+  "Sulkava": {
     lr_lkm: 5,
     autoja_per_asukas: 1.56,
     lr_promille_autot: 1.35,
@@ -1289,7 +1289,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Muhos: {
+  "Muhos": {
     lr_lkm: 14,
     autoja_per_asukas: 1.19,
     lr_promille_autot: 1.33,
@@ -1304,7 +1304,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Loppi: {
+  "Loppi": {
     lr_lkm: 15,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 1.33,
@@ -1319,7 +1319,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Heinola: {
+  "Heinola": {
     lr_lkm: 25,
     autoja_per_asukas: 1.04,
     lr_promille_autot: 1.33,
@@ -1334,7 +1334,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Pyhtää: {
+  "Pyhtää": {
     lr_lkm: 9,
     autoja_per_asukas: 1.35,
     lr_promille_autot: 1.31,
@@ -1349,7 +1349,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Huittinen: {
+  "Huittinen": {
     lr_lkm: 19,
     autoja_per_asukas: 1.49,
     lr_promille_autot: 1.31,
@@ -1364,7 +1364,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 1,
   },
-  Orimattila: {
+  "Orimattila": {
     lr_lkm: 27,
     autoja_per_asukas: 1.31,
     lr_promille_autot: 1.31,
@@ -1379,7 +1379,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Tyrnävä: {
+  "Tyrnävä": {
     lr_lkm: 10,
     autoja_per_asukas: 1.17,
     lr_promille_autot: 1.3,
@@ -1394,7 +1394,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pyhäranta: {
+  "Pyhäranta": {
     lr_lkm: 4,
     autoja_per_asukas: 1.56,
     lr_promille_autot: 1.3,
@@ -1409,7 +1409,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Inari: {
+  "Inari": {
     lr_lkm: 16,
     autoja_per_asukas: 1.77,
     lr_promille_autot: 1.29,
@@ -1424,7 +1424,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kempele: {
+  "Kempele": {
     lr_lkm: 26,
     autoja_per_asukas: 1.05,
     lr_promille_autot: 1.28,
@@ -1439,7 +1439,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Utajärvi: {
+  "Utajärvi": {
     lr_lkm: 5,
     autoja_per_asukas: 1.54,
     lr_promille_autot: 1.28,
@@ -1454,7 +1454,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pukkila: {
+  "Pukkila": {
     lr_lkm: 4,
     autoja_per_asukas: 1.73,
     lr_promille_autot: 1.28,
@@ -1469,7 +1469,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kontiolahti: {
+  "Kontiolahti": {
     lr_lkm: 23,
     autoja_per_asukas: 1.2,
     lr_promille_autot: 1.27,
@@ -1484,7 +1484,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Vieremä: {
+  "Vieremä": {
     lr_lkm: 7,
     autoja_per_asukas: 1.61,
     lr_promille_autot: 1.27,
@@ -1499,7 +1499,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Laihia: {
+  "Laihia": {
     lr_lkm: 13,
     autoja_per_asukas: 1.31,
     lr_promille_autot: 1.27,
@@ -1514,7 +1514,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Polvijärvi: {
+  "Polvijärvi": {
     lr_lkm: 8,
     autoja_per_asukas: 1.56,
     lr_promille_autot: 1.26,
@@ -1529,7 +1529,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Salla: {
+  "Salla": {
     lr_lkm: 7,
     autoja_per_asukas: 1.66,
     lr_promille_autot: 1.26,
@@ -1544,7 +1544,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Raisio: {
+  "Raisio": {
     lr_lkm: 29,
     autoja_per_asukas: 0.93,
     lr_promille_autot: 1.25,
@@ -1559,7 +1559,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Savonlinna: {
+  "Savonlinna": {
     lr_lkm: 44,
     autoja_per_asukas: 1.09,
     lr_promille_autot: 1.25,
@@ -1574,7 +1574,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Kouvola: {
+  "Kouvola": {
     lr_lkm: 111,
     autoja_per_asukas: 1.13,
     lr_promille_autot: 1.24,
@@ -1589,7 +1589,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Hirvensalmi: {
+  "Hirvensalmi": {
     lr_lkm: 4,
     autoja_per_asukas: 1.56,
     lr_promille_autot: 1.23,
@@ -1604,7 +1604,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Nokia: {
+  "Nokia": {
     lr_lkm: 41,
     autoja_per_asukas: 0.95,
     lr_promille_autot: 1.23,
@@ -1619,7 +1619,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Kokkola: {
+  "Kokkola": {
     lr_lkm: 61,
     autoja_per_asukas: 1.05,
     lr_promille_autot: 1.21,
@@ -1634,7 +1634,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Lapinlahti: {
+  "Lapinlahti": {
     lr_lkm: 15,
     autoja_per_asukas: 1.36,
     lr_promille_autot: 1.21,
@@ -1649,7 +1649,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Somero: {
+  "Somero": {
     lr_lkm: 16,
     autoja_per_asukas: 1.57,
     lr_promille_autot: 1.21,
@@ -1664,7 +1664,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Punkalaidun: {
+  "Punkalaidun": {
     lr_lkm: 6,
     autoja_per_asukas: 1.86,
     lr_promille_autot: 1.2,
@@ -1679,7 +1679,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Siikajoki: {
+  "Siikajoki": {
     lr_lkm: 9,
     autoja_per_asukas: 1.55,
     lr_promille_autot: 1.19,
@@ -1694,7 +1694,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Soini: {
+  "Soini": {
     lr_lkm: 4,
     autoja_per_asukas: 1.74,
     lr_promille_autot: 1.19,
@@ -1709,7 +1709,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kuusamo: {
+  "Kuusamo": {
     lr_lkm: 26,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 1.18,
@@ -1724,7 +1724,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Hämeenkyrö: {
+  "Hämeenkyrö": {
     lr_lkm: 16,
     autoja_per_asukas: 1.33,
     lr_promille_autot: 1.17,
@@ -1739,7 +1739,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Suomussalmi: {
+  "Suomussalmi": {
     lr_lkm: 13,
     autoja_per_asukas: 1.5,
     lr_promille_autot: 1.17,
@@ -1754,7 +1754,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Tammela: {
+  "Tammela": {
     lr_lkm: 10,
     autoja_per_asukas: 1.46,
     lr_promille_autot: 1.16,
@@ -1769,7 +1769,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Posio: {
+  "Posio": {
     lr_lkm: 6,
     autoja_per_asukas: 1.72,
     lr_promille_autot: 1.16,
@@ -1784,7 +1784,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Riihimäki: {
+  "Riihimäki": {
     lr_lkm: 28,
     autoja_per_asukas: 0.85,
     lr_promille_autot: 1.16,
@@ -1799,7 +1799,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Rautjärvi: {
+  "Rautjärvi": {
     lr_lkm: 5,
     autoja_per_asukas: 1.39,
     lr_promille_autot: 1.16,
@@ -1814,7 +1814,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Karkkila: {
+  "Karkkila": {
     lr_lkm: 11,
     autoja_per_asukas: 1.11,
     lr_promille_autot: 1.15,
@@ -1829,7 +1829,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Jyväskylä: {
+  "Jyväskylä": {
     lr_lkm: 123,
     autoja_per_asukas: 0.73,
     lr_promille_autot: 1.15,
@@ -1844,7 +1844,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Taipalsaari: {
+  "Taipalsaari": {
     lr_lkm: 7,
     autoja_per_asukas: 1.33,
     lr_promille_autot: 1.15,
@@ -1859,7 +1859,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Ulvila: {
+  "Ulvila": {
     lr_lkm: 18,
     autoja_per_asukas: 1.24,
     lr_promille_autot: 1.15,
@@ -1874,7 +1874,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Simo: {
+  "Simo": {
     lr_lkm: 5,
     autoja_per_asukas: 1.52,
     lr_promille_autot: 1.14,
@@ -1889,7 +1889,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Oulu: {
+  "Oulu": {
     lr_lkm: 190,
     autoja_per_asukas: 0.79,
     lr_promille_autot: 1.13,
@@ -1919,7 +1919,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Akaa: {
+  "Akaa": {
     lr_lkm: 20,
     autoja_per_asukas: 1.08,
     lr_promille_autot: 1.12,
@@ -1934,7 +1934,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Liminka: {
+  "Liminka": {
     lr_lkm: 12,
     autoja_per_asukas: 1.05,
     lr_promille_autot: 1.12,
@@ -1949,7 +1949,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Perho: {
+  "Perho": {
     lr_lkm: 4,
     autoja_per_asukas: 1.34,
     lr_promille_autot: 1.12,
@@ -1964,7 +1964,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kuortane: {
+  "Kuortane": {
     lr_lkm: 6,
     autoja_per_asukas: 1.57,
     lr_promille_autot: 1.11,
@@ -1979,7 +1979,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ilmajoki: {
+  "Ilmajoki": {
     lr_lkm: 19,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 1.1,
@@ -1994,7 +1994,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Vehmaa: {
+  "Vehmaa": {
     lr_lkm: 4,
     autoja_per_asukas: 1.65,
     lr_promille_autot: 1.09,
@@ -2009,7 +2009,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 1,
   },
-  Heinävesi: {
+  "Heinävesi": {
     lr_lkm: 5,
     autoja_per_asukas: 1.5,
     lr_promille_autot: 1.09,
@@ -2024,7 +2024,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Janakkala: {
+  "Janakkala": {
     lr_lkm: 21,
     autoja_per_asukas: 1.19,
     lr_promille_autot: 1.09,
@@ -2039,7 +2039,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Kruunupyy: {
+  "Kruunupyy": {
     lr_lkm: 10,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 1.08,
@@ -2054,7 +2054,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Karstula: {
+  "Karstula": {
     lr_lkm: 6,
     autoja_per_asukas: 1.51,
     lr_promille_autot: 1.08,
@@ -2069,7 +2069,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pornainen: {
+  "Pornainen": {
     lr_lkm: 7,
     autoja_per_asukas: 1.29,
     lr_promille_autot: 1.08,
@@ -2084,7 +2084,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Uusikaarlepyy: {
+  "Uusikaarlepyy": {
     lr_lkm: 12,
     autoja_per_asukas: 1.49,
     lr_promille_autot: 1.08,
@@ -2099,7 +2099,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Laitila: {
+  "Laitila": {
     lr_lkm: 13,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 1.07,
@@ -2114,7 +2114,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Seinäjoki: {
+  "Seinäjoki": {
     lr_lkm: 75,
     autoja_per_asukas: 1.07,
     lr_promille_autot: 1.07,
@@ -2129,7 +2129,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 1,
   },
-  Virolahti: {
+  "Virolahti": {
     lr_lkm: 5,
     autoja_per_asukas: 1.57,
     lr_promille_autot: 1.07,
@@ -2144,7 +2144,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Haapajärvi: {
+  "Haapajärvi": {
     lr_lkm: 9,
     autoja_per_asukas: 1.27,
     lr_promille_autot: 1.06,
@@ -2159,7 +2159,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Juuka: {
+  "Juuka": {
     lr_lkm: 7,
     autoja_per_asukas: 1.55,
     lr_promille_autot: 1.04,
@@ -2174,7 +2174,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ii: {
+  "Ii": {
     lr_lkm: 13,
     autoja_per_asukas: 1.27,
     lr_promille_autot: 1.04,
@@ -2189,7 +2189,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ähtäri: {
+  "Ähtäri": {
     lr_lkm: 8,
     autoja_per_asukas: 1.42,
     lr_promille_autot: 1.04,
@@ -2204,7 +2204,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Muurame: {
+  "Muurame": {
     lr_lkm: 11,
     autoja_per_asukas: 1.02,
     lr_promille_autot: 1.03,
@@ -2219,7 +2219,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Vaasa: {
+  "Vaasa": {
     lr_lkm: 60,
     autoja_per_asukas: 0.86,
     lr_promille_autot: 1.03,
@@ -2234,7 +2234,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Pori: {
+  "Pori": {
     lr_lkm: 84,
     autoja_per_asukas: 1,
     lr_promille_autot: 1.01,
@@ -2249,7 +2249,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Keitele: {
+  "Keitele": {
     lr_lkm: 3,
     autoja_per_asukas: 1.48,
     lr_promille_autot: 1,
@@ -2264,7 +2264,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Alajärvi: {
+  "Alajärvi": {
     lr_lkm: 13,
     autoja_per_asukas: 1.42,
     lr_promille_autot: 1,
@@ -2279,7 +2279,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Saarijärvi: {
+  "Saarijärvi": {
     lr_lkm: 12,
     autoja_per_asukas: 1.33,
     lr_promille_autot: 1,
@@ -2294,7 +2294,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Mynämäki: {
+  "Mynämäki": {
     lr_lkm: 11,
     autoja_per_asukas: 1.46,
     lr_promille_autot: 1,
@@ -2309,7 +2309,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 1,
   },
-  Kotka: {
+  "Kotka": {
     lr_lkm: 44,
     autoja_per_asukas: 0.88,
     lr_promille_autot: 0.99,
@@ -2324,7 +2324,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Aura: {
+  "Aura": {
     lr_lkm: 5,
     autoja_per_asukas: 1.29,
     lr_promille_autot: 0.98,
@@ -2339,7 +2339,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ikaalinen: {
+  "Ikaalinen": {
     lr_lkm: 9,
     autoja_per_asukas: 1.35,
     lr_promille_autot: 0.98,
@@ -2354,7 +2354,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Kannonkoski: {
+  "Kannonkoski": {
     lr_lkm: 2,
     autoja_per_asukas: 1.63,
     lr_promille_autot: 0.97,
@@ -2369,7 +2369,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ylivieska: {
+  "Ylivieska": {
     lr_lkm: 16,
     autoja_per_asukas: 1.09,
     lr_promille_autot: 0.96,
@@ -2384,7 +2384,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Ranua: {
+  "Ranua": {
     lr_lkm: 6,
     autoja_per_asukas: 1.75,
     lr_promille_autot: 0.95,
@@ -2399,7 +2399,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Lieksa: {
+  "Lieksa": {
     lr_lkm: 13,
     autoja_per_asukas: 1.33,
     lr_promille_autot: 0.94,
@@ -2414,7 +2414,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Paimio: {
+  "Paimio": {
     lr_lkm: 12,
     autoja_per_asukas: 1.15,
     lr_promille_autot: 0.94,
@@ -2429,7 +2429,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Toivakka: {
+  "Toivakka": {
     lr_lkm: 3,
     autoja_per_asukas: 1.35,
     lr_promille_autot: 0.93,
@@ -2444,7 +2444,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Rovaniemi: {
+  "Rovaniemi": {
     lr_lkm: 65,
     autoja_per_asukas: 1.09,
     lr_promille_autot: 0.93,
@@ -2459,7 +2459,7 @@ const lrData = {
     defender_2020_lkm: 7,
     fe_lkm: 0,
   },
-  Kerava: {
+  "Kerava": {
     lr_lkm: 27,
     autoja_per_asukas: 0.78,
     lr_promille_autot: 0.92,
@@ -2474,7 +2474,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pöytyä: {
+  "Pöytyä": {
     lr_lkm: 11,
     autoja_per_asukas: 1.49,
     lr_promille_autot: 0.91,
@@ -2489,7 +2489,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Laukaa: {
+  "Laukaa": {
     lr_lkm: 19,
     autoja_per_asukas: 1.11,
     lr_promille_autot: 0.91,
@@ -2504,7 +2504,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Kinnula: {
+  "Kinnula": {
     lr_lkm: 2,
     autoja_per_asukas: 1.43,
     lr_promille_autot: 0.9,
@@ -2519,7 +2519,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kannus: {
+  "Kannus": {
     lr_lkm: 6,
     autoja_per_asukas: 1.24,
     lr_promille_autot: 0.9,
@@ -2534,7 +2534,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Joensuu: {
+  "Joensuu": {
     lr_lkm: 61,
     autoja_per_asukas: 0.89,
     lr_promille_autot: 0.88,
@@ -2549,7 +2549,7 @@ const lrData = {
     defender_2020_lkm: 4,
     fe_lkm: 0,
   },
-  Joroinen: {
+  "Joroinen": {
     lr_lkm: 6,
     autoja_per_asukas: 1.49,
     lr_promille_autot: 0.88,
@@ -2564,7 +2564,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Hyrynsalmi: {
+  "Hyrynsalmi": {
     lr_lkm: 3,
     autoja_per_asukas: 1.63,
     lr_promille_autot: 0.88,
@@ -2579,7 +2579,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ilomantsi: {
+  "Ilomantsi": {
     lr_lkm: 6,
     autoja_per_asukas: 1.54,
     lr_promille_autot: 0.87,
@@ -2594,7 +2594,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Rusko: {
+  "Rusko": {
     lr_lkm: 7,
     autoja_per_asukas: 1.26,
     lr_promille_autot: 0.86,
@@ -2609,7 +2609,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Siikainen: {
+  "Siikainen": {
     lr_lkm: 2,
     autoja_per_asukas: 1.79,
     lr_promille_autot: 0.85,
@@ -2624,7 +2624,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Juva: {
+  "Juva": {
     lr_lkm: 7,
     autoja_per_asukas: 1.43,
     lr_promille_autot: 0.85,
@@ -2639,7 +2639,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Valkeakoski: {
+  "Valkeakoski": {
     lr_lkm: 17,
     autoja_per_asukas: 0.97,
     lr_promille_autot: 0.84,
@@ -2654,7 +2654,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kuopio: {
+  "Kuopio": {
     lr_lkm: 86,
     autoja_per_asukas: 0.84,
     lr_promille_autot: 0.84,
@@ -2684,7 +2684,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kauhava: {
+  "Kauhava": {
     lr_lkm: 20,
     autoja_per_asukas: 1.57,
     lr_promille_autot: 0.84,
@@ -2699,7 +2699,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Jämsä: {
+  "Jämsä": {
     lr_lkm: 21,
     autoja_per_asukas: 1.29,
     lr_promille_autot: 0.84,
@@ -2714,7 +2714,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Tuusniemi: {
+  "Tuusniemi": {
     lr_lkm: 3,
     autoja_per_asukas: 1.5,
     lr_promille_autot: 0.83,
@@ -2729,7 +2729,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Närpiö: {
+  "Närpiö": {
     lr_lkm: 12,
     autoja_per_asukas: 1.51,
     lr_promille_autot: 0.83,
@@ -2744,7 +2744,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Tohmajärvi: {
+  "Tohmajärvi": {
     lr_lkm: 5,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 0.83,
@@ -2759,7 +2759,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Vöyri: {
+  "Vöyri": {
     lr_lkm: 8,
     autoja_per_asukas: 1.56,
     lr_promille_autot: 0.82,
@@ -2774,7 +2774,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Imatra: {
+  "Imatra": {
     lr_lkm: 21,
     autoja_per_asukas: 1.03,
     lr_promille_autot: 0.81,
@@ -2789,7 +2789,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Rauma: {
+  "Rauma": {
     lr_lkm: 33,
     autoja_per_asukas: 1.05,
     lr_promille_autot: 0.81,
@@ -2804,7 +2804,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Alavieska: {
+  "Alavieska": {
     lr_lkm: 3,
     autoja_per_asukas: 1.51,
     lr_promille_autot: 0.81,
@@ -2819,7 +2819,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Evijärvi: {
+  "Evijärvi": {
     lr_lkm: 3,
     autoja_per_asukas: 1.61,
     lr_promille_autot: 0.8,
@@ -2834,7 +2834,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Leppävirta: {
+  "Leppävirta": {
     lr_lkm: 10,
     autoja_per_asukas: 1.36,
     lr_promille_autot: 0.8,
@@ -2849,7 +2849,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Mikkeli: {
+  "Mikkeli": {
     lr_lkm: 43,
     autoja_per_asukas: 1.03,
     lr_promille_autot: 0.8,
@@ -2864,7 +2864,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Rantasalmi: {
+  "Rantasalmi": {
     lr_lkm: 4,
     autoja_per_asukas: 1.52,
     lr_promille_autot: 0.79,
@@ -2879,7 +2879,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Vimpeli: {
+  "Vimpeli": {
     lr_lkm: 3,
     autoja_per_asukas: 1.43,
     lr_promille_autot: 0.79,
@@ -2894,7 +2894,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Forssa: {
+  "Forssa": {
     lr_lkm: 14,
     autoja_per_asukas: 1.07,
     lr_promille_autot: 0.79,
@@ -2909,7 +2909,7 @@ const lrData = {
     defender_2020_lkm: 2,
     fe_lkm: 0,
   },
-  Outokumpu: {
+  "Outokumpu": {
     lr_lkm: 6,
     autoja_per_asukas: 1.19,
     lr_promille_autot: 0.78,
@@ -2924,7 +2924,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Hankasalmi: {
+  "Hankasalmi": {
     lr_lkm: 5,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 0.78,
@@ -2939,7 +2939,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Mustasaari: {
+  "Mustasaari": {
     lr_lkm: 21,
     autoja_per_asukas: 1.39,
     lr_promille_autot: 0.77,
@@ -2954,7 +2954,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Hamina: {
+  "Hamina": {
     lr_lkm: 18,
     autoja_per_asukas: 1.2,
     lr_promille_autot: 0.77,
@@ -2969,7 +2969,7 @@ const lrData = {
     defender_2020_lkm: 3,
     fe_lkm: 0,
   },
-  Pyhäjärvi: {
+  "Pyhäjärvi": {
     lr_lkm: 5,
     autoja_per_asukas: 1.36,
     lr_promille_autot: 0.76,
@@ -2984,7 +2984,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Iisalmi: {
+  "Iisalmi": {
     lr_lkm: 18,
     autoja_per_asukas: 1.13,
     lr_promille_autot: 0.76,
@@ -2999,7 +2999,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Askola: {
+  "Askola": {
     lr_lkm: 5,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 0.75,
@@ -3014,7 +3014,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Eurajoki: {
+  "Eurajoki": {
     lr_lkm: 10,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 0.75,
@@ -3029,7 +3029,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Siikalatva: {
+  "Siikalatva": {
     lr_lkm: 6,
     autoja_per_asukas: 1.58,
     lr_promille_autot: 0.75,
@@ -3044,7 +3044,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Hartola: {
+  "Hartola": {
     lr_lkm: 3,
     autoja_per_asukas: 1.55,
     lr_promille_autot: 0.75,
@@ -3059,7 +3059,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kitee: {
+  "Kitee": {
     lr_lkm: 10,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 0.73,
@@ -3074,7 +3074,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kauhajoki: {
+  "Kauhajoki": {
     lr_lkm: 14,
     autoja_per_asukas: 1.5,
     lr_promille_autot: 0.73,
@@ -3089,7 +3089,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Suonenjoki: {
+  "Suonenjoki": {
     lr_lkm: 6,
     autoja_per_asukas: 1.25,
     lr_promille_autot: 0.71,
@@ -3104,7 +3104,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Sonkajärvi: {
+  "Sonkajärvi": {
     lr_lkm: 4,
     autoja_per_asukas: 1.54,
     lr_promille_autot: 0.71,
@@ -3119,7 +3119,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Miehikkälä: {
+  "Miehikkälä": {
     lr_lkm: 2,
     autoja_per_asukas: 1.6,
     lr_promille_autot: 0.7,
@@ -3134,7 +3134,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Vesanto: {
+  "Vesanto": {
     lr_lkm: 2,
     autoja_per_asukas: 1.5,
     lr_promille_autot: 0.7,
@@ -3149,7 +3149,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kemi: {
+  "Kemi": {
     lr_lkm: 13,
     autoja_per_asukas: 0.95,
     lr_promille_autot: 0.7,
@@ -3164,7 +3164,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ruokolahti: {
+  "Ruokolahti": {
     lr_lkm: 5,
     autoja_per_asukas: 1.47,
     lr_promille_autot: 0.7,
@@ -3179,7 +3179,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Loimaa: {
+  "Loimaa": {
     lr_lkm: 15,
     autoja_per_asukas: 1.41,
     lr_promille_autot: 0.69,
@@ -3194,7 +3194,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kolari: {
+  "Kolari": {
     lr_lkm: 4,
     autoja_per_asukas: 1.44,
     lr_promille_autot: 0.69,
@@ -3209,7 +3209,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pietarsaari: {
+  "Pietarsaari": {
     lr_lkm: 14,
     autoja_per_asukas: 1.05,
     lr_promille_autot: 0.69,
@@ -3224,7 +3224,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Äänekoski: {
+  "Äänekoski": {
     lr_lkm: 14,
     autoja_per_asukas: 1.13,
     lr_promille_autot: 0.68,
@@ -3239,7 +3239,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Taivassalo: {
+  "Taivassalo": {
     lr_lkm: 2,
     autoja_per_asukas: 1.74,
     lr_promille_autot: 0.68,
@@ -3254,7 +3254,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Alavus: {
+  "Alavus": {
     lr_lkm: 11,
     autoja_per_asukas: 1.46,
     lr_promille_autot: 0.68,
@@ -3269,7 +3269,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kuhmo: {
+  "Kuhmo": {
     lr_lkm: 8,
     autoja_per_asukas: 1.52,
     lr_promille_autot: 0.68,
@@ -3284,7 +3284,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Jämijärvi: {
+  "Jämijärvi": {
     lr_lkm: 2,
     autoja_per_asukas: 1.78,
     lr_promille_autot: 0.67,
@@ -3299,7 +3299,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Teuva: {
+  "Teuva": {
     lr_lkm: 5,
     autoja_per_asukas: 1.54,
     lr_promille_autot: 0.67,
@@ -3314,7 +3314,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Siilinjärvi: {
+  "Siilinjärvi": {
     lr_lkm: 16,
     autoja_per_asukas: 1.13,
     lr_promille_autot: 0.67,
@@ -3329,7 +3329,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Eura: {
+  "Eura": {
     lr_lkm: 11,
     autoja_per_asukas: 1.49,
     lr_promille_autot: 0.65,
@@ -3344,7 +3344,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Parkano: {
+  "Parkano": {
     lr_lkm: 6,
     autoja_per_asukas: 1.48,
     lr_promille_autot: 0.65,
@@ -3359,7 +3359,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Raahe: {
+  "Raahe": {
     lr_lkm: 18,
     autoja_per_asukas: 1.16,
     lr_promille_autot: 0.65,
@@ -3374,7 +3374,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Paltamo: {
+  "Paltamo": {
     lr_lkm: 3,
     autoja_per_asukas: 1.51,
     lr_promille_autot: 0.64,
@@ -3389,7 +3389,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Keuruu: {
+  "Keuruu": {
     lr_lkm: 7,
     autoja_per_asukas: 1.18,
     lr_promille_autot: 0.64,
@@ -3404,7 +3404,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Orivesi: {
+  "Orivesi": {
     lr_lkm: 7,
     autoja_per_asukas: 1.24,
     lr_promille_autot: 0.63,
@@ -3419,7 +3419,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Humppila: {
+  "Humppila": {
     lr_lkm: 2,
     autoja_per_asukas: 1.49,
     lr_promille_autot: 0.62,
@@ -3434,7 +3434,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pudasjärvi: {
+  "Pudasjärvi": {
     lr_lkm: 7,
     autoja_per_asukas: 1.48,
     lr_promille_autot: 0.62,
@@ -3449,7 +3449,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Viitasaari: {
+  "Viitasaari": {
     lr_lkm: 5,
     autoja_per_asukas: 1.35,
     lr_promille_autot: 0.62,
@@ -3464,7 +3464,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Kurikka: {
+  "Kurikka": {
     lr_lkm: 18,
     autoja_per_asukas: 1.48,
     lr_promille_autot: 0.61,
@@ -3479,7 +3479,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Savitaipale: {
+  "Savitaipale": {
     lr_lkm: 3,
     autoja_per_asukas: 1.51,
     lr_promille_autot: 0.61,
@@ -3494,7 +3494,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kristiinankaupunki: {
+  "Kristiinankaupunki": {
     lr_lkm: 6,
     autoja_per_asukas: 1.6,
     lr_promille_autot: 0.6,
@@ -3509,7 +3509,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Jokioinen: {
+  "Jokioinen": {
     lr_lkm: 4,
     autoja_per_asukas: 1.34,
     lr_promille_autot: 0.6,
@@ -3524,7 +3524,7 @@ const lrData = {
     defender_2020_lkm: 1,
     fe_lkm: 0,
   },
-  Luoto: {
+  "Luoto": {
     lr_lkm: 4,
     autoja_per_asukas: 1.18,
     lr_promille_autot: 0.59,
@@ -3539,7 +3539,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kankaanpää: {
+  "Kankaanpää": {
     lr_lkm: 10,
     autoja_per_asukas: 1.36,
     lr_promille_autot: 0.59,
@@ -3554,7 +3554,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Tornio: {
+  "Tornio": {
     lr_lkm: 15,
     autoja_per_asukas: 1.22,
     lr_promille_autot: 0.58,
@@ -3569,7 +3569,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pello: {
+  "Pello": {
     lr_lkm: 3,
     autoja_per_asukas: 1.61,
     lr_promille_autot: 0.57,
@@ -3584,7 +3584,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pihtipudas: {
+  "Pihtipudas": {
     lr_lkm: 3,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 0.57,
@@ -3599,7 +3599,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Keminmaa: {
+  "Keminmaa": {
     lr_lkm: 6,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 0.55,
@@ -3614,7 +3614,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kärsämäki: {
+  "Kärsämäki": {
     lr_lkm: 2,
     autoja_per_asukas: 1.48,
     lr_promille_autot: 0.54,
@@ -3629,7 +3629,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Nakkila: {
+  "Nakkila": {
     lr_lkm: 4,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 0.54,
@@ -3644,7 +3644,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kaustinen: {
+  "Kaustinen": {
     lr_lkm: 3,
     autoja_per_asukas: 1.35,
     lr_promille_autot: 0.53,
@@ -3659,7 +3659,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Puolanka: {
+  "Puolanka": {
     lr_lkm: 2,
     autoja_per_asukas: 1.58,
     lr_promille_autot: 0.53,
@@ -3674,7 +3674,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Varkaus: {
+  "Varkaus": {
     lr_lkm: 11,
     autoja_per_asukas: 1.05,
     lr_promille_autot: 0.53,
@@ -3689,7 +3689,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Sievi: {
+  "Sievi": {
     lr_lkm: 3,
     autoja_per_asukas: 1.24,
     lr_promille_autot: 0.51,
@@ -3704,7 +3704,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Toholampi: {
+  "Toholampi": {
     lr_lkm: 2,
     autoja_per_asukas: 1.36,
     lr_promille_autot: 0.51,
@@ -3719,7 +3719,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Liperi: {
+  "Liperi": {
     lr_lkm: 8,
     autoja_per_asukas: 1.31,
     lr_promille_autot: 0.51,
@@ -3734,7 +3734,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 1,
   },
-  Konnevesi: {
+  "Konnevesi": {
     lr_lkm: 2,
     autoja_per_asukas: 1.58,
     lr_promille_autot: 0.5,
@@ -3764,7 +3764,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pieksämäki: {
+  "Pieksämäki": {
     lr_lkm: 10,
     autoja_per_asukas: 1.17,
     lr_promille_autot: 0.5,
@@ -3779,7 +3779,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Joutsa: {
+  "Joutsa": {
     lr_lkm: 3,
     autoja_per_asukas: 1.44,
     lr_promille_autot: 0.5,
@@ -3794,7 +3794,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pielavesi: {
+  "Pielavesi": {
     lr_lkm: 3,
     autoja_per_asukas: 1.44,
     lr_promille_autot: 0.5,
@@ -3809,7 +3809,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Savukoski: {
+  "Savukoski": {
     lr_lkm: 1,
     autoja_per_asukas: 2.05,
     lr_promille_autot: 0.49,
@@ -3824,7 +3824,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Tervo: {
+  "Tervo": {
     lr_lkm: 1,
     autoja_per_asukas: 1.47,
     lr_promille_autot: 0.47,
@@ -3839,7 +3839,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Rautalampi: {
+  "Rautalampi": {
     lr_lkm: 2,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 0.47,
@@ -3854,7 +3854,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Karvia: {
+  "Karvia": {
     lr_lkm: 2,
     autoja_per_asukas: 1.91,
     lr_promille_autot: 0.47,
@@ -3869,7 +3869,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Enonkoski: {
+  "Enonkoski": {
     lr_lkm: 1,
     autoja_per_asukas: 1.61,
     lr_promille_autot: 0.46,
@@ -3884,7 +3884,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kokemäki: {
+  "Kokemäki": {
     lr_lkm: 5,
     autoja_per_asukas: 1.56,
     lr_promille_autot: 0.46,
@@ -3899,7 +3899,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Nousiainen: {
+  "Nousiainen": {
     lr_lkm: 3,
     autoja_per_asukas: 1.41,
     lr_promille_autot: 0.46,
@@ -3914,7 +3914,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Haapavesi: {
+  "Haapavesi": {
     lr_lkm: 4,
     autoja_per_asukas: 1.32,
     lr_promille_autot: 0.46,
@@ -3929,7 +3929,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Parikkala: {
+  "Parikkala": {
     lr_lkm: 3,
     autoja_per_asukas: 1.58,
     lr_promille_autot: 0.43,
@@ -3944,7 +3944,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 1,
   },
-  Rautavaara: {
+  "Rautavaara": {
     lr_lkm: 1,
     autoja_per_asukas: 1.56,
     lr_promille_autot: 0.43,
@@ -3959,7 +3959,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kangasniemi: {
+  "Kangasniemi": {
     lr_lkm: 3,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 0.42,
@@ -3974,7 +3974,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Multia: {
+  "Multia": {
     lr_lkm: 1,
     autoja_per_asukas: 1.69,
     lr_promille_autot: 0.4,
@@ -3989,7 +3989,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kiuruvesi: {
+  "Kiuruvesi": {
     lr_lkm: 4,
     autoja_per_asukas: 1.39,
     lr_promille_autot: 0.38,
@@ -4004,7 +4004,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Oulainen: {
+  "Oulainen": {
     lr_lkm: 3,
     autoja_per_asukas: 1.14,
     lr_promille_autot: 0.37,
@@ -4019,7 +4019,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Harjavalta: {
+  "Harjavalta": {
     lr_lkm: 3,
     autoja_per_asukas: 1.24,
     lr_promille_autot: 0.36,
@@ -4034,7 +4034,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Ylitornio: {
+  "Ylitornio": {
     lr_lkm: 2,
     autoja_per_asukas: 1.61,
     lr_promille_autot: 0.33,
@@ -4049,7 +4049,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pomarkku: {
+  "Pomarkku": {
     lr_lkm: 1,
     autoja_per_asukas: 1.58,
     lr_promille_autot: 0.32,
@@ -4064,7 +4064,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Nivala: {
+  "Nivala": {
     lr_lkm: 4,
     autoja_per_asukas: 1.26,
     lr_promille_autot: 0.31,
@@ -4079,7 +4079,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Isojoki: {
+  "Isojoki": {
     lr_lkm: 1,
     autoja_per_asukas: 1.72,
     lr_promille_autot: 0.31,
@@ -4094,7 +4094,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kemijärvi: {
+  "Kemijärvi": {
     lr_lkm: 3,
     autoja_per_asukas: 1.49,
     lr_promille_autot: 0.29,
@@ -4109,7 +4109,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Isokyrö: {
+  "Isokyrö": {
     lr_lkm: 2,
     autoja_per_asukas: 1.67,
     lr_promille_autot: 0.27,
@@ -4124,7 +4124,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Lapinjärvi: {
+  "Lapinjärvi": {
     lr_lkm: 1,
     autoja_per_asukas: 1.53,
     lr_promille_autot: 0.26,
@@ -4139,7 +4139,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kaavi: {
+  "Kaavi": {
     lr_lkm: 1,
     autoja_per_asukas: 1.41,
     lr_promille_autot: 0.26,
@@ -4154,7 +4154,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Lappajärvi: {
+  "Lappajärvi": {
     lr_lkm: 1,
     autoja_per_asukas: 1.4,
     lr_promille_autot: 0.25,
@@ -4169,7 +4169,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Merikarvia: {
+  "Merikarvia": {
     lr_lkm: 1,
     autoja_per_asukas: 1.48,
     lr_promille_autot: 0.23,
@@ -4184,7 +4184,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Veteli: {
+  "Veteli": {
     lr_lkm: 1,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 0.23,
@@ -4199,7 +4199,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Uurainen: {
+  "Uurainen": {
     lr_lkm: 1,
     autoja_per_asukas: 1.29,
     lr_promille_autot: 0.22,
@@ -4214,7 +4214,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Reisjärvi: {
+  "Reisjärvi": {
     lr_lkm: 0,
     autoja_per_asukas: 1.37,
     lr_promille_autot: 0,
@@ -4229,7 +4229,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Pertunmaa: {
+  "Pertunmaa": {
     lr_lkm: 0,
     autoja_per_asukas: 1.64,
     lr_promille_autot: 0,
@@ -4244,7 +4244,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Jomala: {
+  "Jomala": {
     lr_lkm: 0,
     autoja_per_asukas: 0.02,
     lr_promille_autot: 0,
@@ -4259,7 +4259,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Sottunga: {
+  "Sottunga": {
     lr_lkm: 0,
     autoja_per_asukas: 0.1,
     lr_promille_autot: 0,
@@ -4274,7 +4274,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Lemland: {
+  "Lemland": {
     lr_lkm: 0,
     autoja_per_asukas: 0.01,
     lr_promille_autot: 0,
@@ -4289,7 +4289,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kihniö: {
+  "Kihniö": {
     lr_lkm: 0,
     autoja_per_asukas: 1.69,
     lr_promille_autot: 0,
@@ -4304,7 +4304,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Eckerö: {
+  "Eckerö": {
     lr_lkm: 0,
     autoja_per_asukas: 0.02,
     lr_promille_autot: 0,
@@ -4319,7 +4319,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Saltvik: {
+  "Saltvik": {
     lr_lkm: 0,
     autoja_per_asukas: 0.01,
     lr_promille_autot: 0,
@@ -4334,7 +4334,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Halsua: {
+  "Halsua": {
     lr_lkm: 0,
     autoja_per_asukas: 1.59,
     lr_promille_autot: 0,
@@ -4349,7 +4349,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kivijärvi: {
+  "Kivijärvi": {
     lr_lkm: 0,
     autoja_per_asukas: 1.45,
     lr_promille_autot: 0,
@@ -4364,7 +4364,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Brändö: {
+  "Brändö": {
     lr_lkm: 0,
     autoja_per_asukas: 0.24,
     lr_promille_autot: 0,
@@ -4379,7 +4379,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Korsnäs: {
+  "Korsnäs": {
     lr_lkm: 0,
     autoja_per_asukas: 1.65,
     lr_promille_autot: 0,
@@ -4394,7 +4394,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Merijärvi: {
+  "Merijärvi": {
     lr_lkm: 0,
     autoja_per_asukas: 1.32,
     lr_promille_autot: 0,
@@ -4424,7 +4424,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kumlinge: {
+  "Kumlinge": {
     lr_lkm: 0,
     autoja_per_asukas: 0.04,
     lr_promille_autot: 0,
@@ -4439,7 +4439,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Vårdö: {
+  "Vårdö": {
     lr_lkm: 0,
     autoja_per_asukas: 0.03,
     lr_promille_autot: 0,
@@ -4454,7 +4454,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Lumparland: {
+  "Lumparland": {
     lr_lkm: 0,
     autoja_per_asukas: 0.03,
     lr_promille_autot: 0,
@@ -4469,7 +4469,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Taivalkoski: {
+  "Taivalkoski": {
     lr_lkm: 0,
     autoja_per_asukas: 1.52,
     lr_promille_autot: 0,
@@ -4484,7 +4484,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kyyjärvi: {
+  "Kyyjärvi": {
     lr_lkm: 0,
     autoja_per_asukas: 1.52,
     lr_promille_autot: 0,
@@ -4499,7 +4499,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kökar: {
+  "Kökar": {
     lr_lkm: 0,
     autoja_per_asukas: 0.11,
     lr_promille_autot: 0,
@@ -4514,7 +4514,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Lestijärvi: {
+  "Lestijärvi": {
     lr_lkm: 0,
     autoja_per_asukas: 1.53,
     lr_promille_autot: 0,
@@ -4529,7 +4529,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Hammarland: {
+  "Hammarland": {
     lr_lkm: 0,
     autoja_per_asukas: 0.02,
     lr_promille_autot: 0,
@@ -4544,7 +4544,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Karijoki: {
+  "Karijoki": {
     lr_lkm: 0,
     autoja_per_asukas: 1.79,
     lr_promille_autot: 0,
@@ -4559,7 +4559,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Puumala: {
+  "Puumala": {
     lr_lkm: 0,
     autoja_per_asukas: 1.6,
     lr_promille_autot: 0,
@@ -4574,7 +4574,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Geta: {
+  "Geta": {
     lr_lkm: 0,
     autoja_per_asukas: 0.02,
     lr_promille_autot: 0,
@@ -4589,7 +4589,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Föglö: {
+  "Föglö": {
     lr_lkm: 0,
     autoja_per_asukas: 0.02,
     lr_promille_autot: 0,
@@ -4604,7 +4604,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Kaskinen: {
+  "Kaskinen": {
     lr_lkm: 0,
     autoja_per_asukas: 1.18,
     lr_promille_autot: 0,
@@ -4619,7 +4619,7 @@ const lrData = {
     defender_2020_lkm: 0,
     fe_lkm: 0,
   },
-  Finström: {
+  "Finström": {
     lr_lkm: 0,
     autoja_per_asukas: 0.01,
     lr_promille_autot: 0,
